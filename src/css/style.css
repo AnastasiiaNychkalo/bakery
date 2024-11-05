@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto!';
+    src: url(../font/Roboto-Regular.ttf);
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -110,6 +115,10 @@ nav {
     width: 1000px;
 }
 
+.section-map {
+    margin-bottom: 20px;
+}
+
 .section-map__title {
     margin-bottom: 20px;
     text-align: center;
@@ -125,4 +134,13 @@ iframe {
     border-top: 1px solid black;
     width: 1024px;
     margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 80px;
+}
+
+h1 {
+    font-family: 'Roboto!';
 }
